@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>NUTRIFIT</title>
+    <link rel = "icon" href =  
+    "logo.png" 
+            type = "image/x-icon"> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    
+
+    <link rel="stylesheet" href="NEW\main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+    .btn-sanketh{
+        border: 1px solid black;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        
+        
+    }
+    .btn-sanketh:hover,
+  .btn-sanketh:active,
+  .btn-sanketh:focus,
+  .btn-sanketh.active {
+    background: #62eed2 !important;
+    color: #ffffff !important;
+    border-color: #62eed2 !important;
+    
+  }
+    .sandhya{
+        padding-left: 40px;
+        text-align: left;
+    }
+    
+    .btn-sandhya{
+        border: 1px solid black;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        
+    }
+    .btn-sandhya:hover,
+  .btn-sandhya:active,
+  .btn-sandhya:focus,
+  .btn-sandhya.active {
+    background: #62eed2 !important;
+    color: #ffffff !important;
+    border-color: #62eed2 !important;
+  }
+
+  .context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4fbfa8;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+.alert{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #79c879;
+    color: #fff;
+    display: none;
+}
+
+.scrollbar-deep-purple::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-deep-purple::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-deep-purple::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #512da8; }
+
+.scrollbar-deep-purple {
+scrollbar-color: #512da8 #F5F5F5;
+}
+
+.scrollbar-cyan::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-cyan::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-cyan::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #00bcd4; }
+
+.scrollbar-cyan {
+scrollbar-color: #00bcd4 #F5F5F5;
+}
+
+.scrollbar-dusty-grass::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #d4fc79 0%, #96e6a1 100%);
+background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+.bordered-deep-purple::-webkit-scrollbar-track {
+-webkit-box-shadow: none;
+border: 1px solid #512da8; }
+
+.bordered-deep-purple::-webkit-scrollbar-thumb {
+-webkit-box-shadow: none; }
+
+.bordered-cyan::-webkit-scrollbar-track {
+-webkit-box-shadow: none;
+border: 1px solid #00bcd4; }
+
+.bordered-cyan::-webkit-scrollbar-thumb {
+-webkit-box-shadow: none; }
+
+.square::-webkit-scrollbar-track {
+border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+width: 6px; }
+
+.example-1 {
+position: relative;
+overflow-y: scroll;
+height: 200px; }
+
+h11{
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-expand-md navbar-light" style="background-color: #62eed2 ;">
+        <a class="navbar-brand" href="#" style="max-width: 30%;" >
+          <img src="logo.png" class="img-fluid" style="max-height: 40px; max-width: 40px;">NUTRIFIT
+       </a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> </ul>
+              <ul class="nav navbar-nav navbar-right mr-5">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="gallery.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#book">Free Consultation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownId">
+                          <a class="dropdown-item" href="gallery.html">Gallery</a>
+                          <a class="dropdown-item" href="#about">About</a>
+                          <a class="dropdown-item" href="#blog">Blog</a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+      <div class="container-fluid" >
+          <div class="row">
+              <div class="col-md-6 animated fadeInLeft 2s" style="padding-left: 0 !important;">
+                    <img src="profile.jpeg" class="img-fluid"alt="">
+              </div>
+              <div class="col-md-6 mb-5 animated fadeInLeft">
+                  <h1 style="font-size: 28px; margin-top: 200px; padding-left: 40px;" >Hi,</h1>
+                  <h2 style="padding-left: 40px;">This is <strong>Sneha Mehta</strong></h2>
+                  <p style="font-size: 20px; padding-left: 44px;">I am a Nutritionist</p>
+                  
+                    <div class="row" style="padding-left: 34px; ">
+                    <a href="https://www.facebook.com/Nutrifit005/"> <i style="padding-left: 20px;"class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/sneha-mehta-5b4333b9/"><i style="padding-left: 20px;"class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>  
+                    <a href="https://instagram.com/nutrifit_healthyliving?igshid=gzaet7lg6mz8"><i style="padding-left: 20px;"class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/channel/UCDnADm-DcwV3PC-nhW-I75Q"><i style="padding-left: 20px;"class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://t.me/nutrifit_healthyliving"><i style="padding-left: 20px;"class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://medium.com/@snehamehta280"><i style="padding-left: 20px;"class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
+                    <i style="padding-left: 20px;"class="fas fa-hospital fa-2x"></i>
+                 </div>
+                  
+                 <div class="sandhya mt-5">
+                     <a role="button" href="#about" class="btn btn-sanketh mr-1" >About Me</a>
+                     <a role="button" href="#book" class="btn btn-sandhya mt-1">Book An Appointment</a>
+                 </div>
+              </div>
+              
+          </div>
+      </div>
+    <div class="jumbotron jumbotron-fluid" style="background-color: aliceblue;">
+        <h1 id="about" class="display-4" style="text-align: center; font-size: 35px;"><strong>About</strong></h1>
+        
+        <hr class="my-4">
+        <p style="padding-left: 40px; padding-right:40px; font-size: 16px; text-align: center;" class="mb-0">
+          I strongly believe that making small but positive lifestyle changes on a regular basis eventually leads to good health. According to me, nutrition can make or break a person based on their dietary habits. As a Diet Coach, I aim to motivate my clients, and introduce discipline in their lives, in order to help them make healthy choices everyday.
+          <br>
+          As a certified diabetes educator, I believes in helping people with theraupeutic disorders with lifestyle modification and dietry restrictions to regain a healthy life.
+          <br>
+          The mantra is to party hard but sweat it out harder. 
+       
+        </p>
+        <div class="mt-5 text-center">
+        <a class="btn btn-success" href="gallery.html"> Visit Gallery  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        <hr>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" style="background-color: white;">
+        <h1 style="text-align: center; background-color: white;" id="book">Book An Appointment</h1>
+        
+        <div class="contact-form">
+          <div class="alert">Your Consultaion call has been registered, expect a call within 24 hours</div>
+            <form id="contact-form" method="POST" action="index.php" style="padding: 40px;">
+                <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" name="name" class="form-control lg-4" placeholder="Please Enter Your Name" required id="name">
+                    <br>
+                </div>
+               <div class="col-sm-6">
+                <input type="text" name="email" class="form-control" placeholder="Please Enter Your Email" required id="email">
+                <br>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="tel" name="phno" class="form-control lg-4" placeholder="Please Enter Your Phone Number" required id="phoneno">
+                    <br>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-control" id="options">
+                        <option>Weight-loss</option>
+                        <option>Weight-gain</option>
+                        <option>Disease Management</option>
+                        <option>Muscle-up</option>
+                        <option>Sports Nutrition</option>
+                        <option>Wedding Bells</option>
+                        <option>Others [please specify in the comments section]</option>
+                        
+                    </select>
+                </div>
+
+
+            </div>
+
+            
+              
+                <textarea name="comment" class="form-control mt-4" placeholder="Comment" rows="3" id="comment"></textarea>
+              
+                <div class="mb-5 mt-5 text-center">
+                <button type="submit" class="btn btn-primary" value="Send" style="padding-left: 30px; padding-right: 30px;">Submit</button>
+    
+            </div>
+            </form>
+            
+        </div>
+
+
+    </div>
+
+    <h1 style="text-align: center; background-color: white;" id="blog" class="mb-5">Blogs</h1>
+
+    <div class="row" style="margin: 30px;">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+    
+        <!-- Exaple 1 -->
+        <div class="card example-1 scrollbar-ripe-malinka">
+          <div class="card-body">
+            <h4 id="section1"><strong></strong></h4>
+            <p><blockquote class="embedly-card"><h4><a href="https://medium.com/@snehamehta280/whats-more-important-sleep-or-exercise-989dcbb3cfaf">What's More Important Sleep Or Exercise?</a></h4><p>What's More Important Sleep Or Exercise? Since both exercise and sleep are good , this predicament is far more common than you'd think. However, the answer as to how one can definitively balance one against the other is not as hard as you might think.</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+          </div>
+        </div>
+        <!-- Exaple 1 -->
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+    
+        <!-- Exaple 1 -->
+        <div class="card example-1 square scrollbar-cyan bordered-cyan">
+          <div class="card-body">
+            <h4 id="section1"><strong></strong></h4>
+            <p><blockquote class="embedly-card"><h4><a href="https://medium.com/@snehamehta280/want-to-holiday-and-still-be-fit-detox-is-the-key-bc29a23c52cd">Want to Holiday , And still be fit ? Detox is the key ...</a></h4><p>Want to Holiday , And still be fit ? Detox is the key ... After a party or a vacation , you can cleanse your body with these lifestyle practices: E at plenty of fiber, including brown rice and organically grown fresh fruits and vegetables.</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+          </div>
+        </div>
+        <!-- Exaple 1 -->
+    
+      </div>
+      <!-- Grid column -->
+    
+    </div>
+    <!-- Grid row -->
+    
+    <!-- Grid row -->
+    <div class="row mb-5 mt-5" style="margin: 30px;" >
+    
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+    
+        <!-- Exaple 1 -->
+        <div class="card example-1 scrollbar-deep-purple bordered-deep-purple thin">
+          <div class="card-body">
+            <h4 id="section1"><strong></strong></h4>
+            <p><blockquote class="embedly-card"><h4><a href="https://medium.com/@snehamehta280/importance-of-good-food-8e63bce7bdb3">IMPORTANCE OF GOOD FOOD</a></h4><p>5 Brain Chemicals that may affect student's decision to overeat Brain chemicals, called neurotransmitters, allow messages to pass from one cell to the next and are essential for communication between brain cells. Brain chemicals regulate student's mood and mental energy, alertness, focus and calmness. The quality of student's lives is highly determined by our brain chemistry.</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+          </div>
+        </div>
+        <!-- Exaple 1 -->
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-md-6">
+    
+        <!-- Exaple 1 -->
+        <div class="card example-1 square scrollbar-dusty-grass square thin">
+          <div class="card-body">
+            <h4 id="section1"><strong></strong></h4>
+            <p><blockquote class="embedly-card"><h4><a href="https://medium.com/@snehamehta280/survival-guide-to-healthy-eating-c99cb75746ac">SURVIVAL GUIDE TO HEALTHY EATING</a></h4><p>When a your day is packed with cooking , not to mention a social life and maybe a job, who has time for healthy eating? While sometimes low on the list of your priorities, being smart about food has many benefits.</p></blockquote>
+            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+          </div>
+        </div>
+        <!-- Exaple 1 -->
+    
+      </div>
+      <!-- Grid column -->
+    
+    </div>
+    <!-- Grid row -->
+    
+
+    <footer class="section footer-classic context-dark bg-image" id="contact" style="background: #07a384;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5 mt-4">
+              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="logo.png" alt="" width="60" height="60" srcset="logo.png 2x"></a>
+                <p class="mt-1">At Nutrifit we believe every person is different. Nutrifit experiances one through which you meet the best nutritionist via online portal at affordable prices, we also specialize in one to one consultation for best results.  </p>
+                <!-- Rights-->
+         
+              </div>
+            </div>
+            <div class="col-md-4 mt-4">
+              <h5>Contacts</h5>
+              <dl class="contact-list">
+                <dt>Address:</dt>
+                <dd>#113 1st floor 2nd main<br>
+                9th cross chamrajpet, Bangalore 560018</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:nutrifithealthyliving@gmail.com">nutrifithealthyliving@gmail.com</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>phones:</dt>
+                <dd><a href="tel:8073583638">8073583638</a> <span>or</span> <a href="tel:8073042307">8073042307</a>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3 mt-4">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="https://www.facebook.com/Nutrifit005/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span></span></a></div>
+          <div class="col"><a class="social-inner" href="https://instagram.com/nutrifit_healthyliving?igshid=gzaet7lg6mz8"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i><span></span></a></div>
+          <div class="col"><a class="social-inner" href="https://medium.com/@snehamehta280"><i class="fa fa-medium fa-2x" aria-hidden="true"></i><span></span></a></div>
+          <div class="col"><a class="social-inner" href="https://www.youtube.com/channel/UCDnADm-DcwV3PC-nhW-I75Q"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i><span></span></a></div>
+        </div>
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+
+<script src="/__/firebase/init.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+
+
+<!--This script is not in the video and is new-->
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+<script src="main.js"></script>
+  </body>
+</html>
